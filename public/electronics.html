@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics - E-commerce Website</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">My E-commerce</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+        <div class="cart-button">
+            <button>Cart</button>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mobile.html">Mobile</a></li>
+            <li><a href="electronics.html">Electronics</a></li>
+            <li><a href="clothing.html">Clothing</a></li>
+            <li><a href="shoes.html">Shoes</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Electronics Products</h1>
+        <div class="products">
+            <div class="product">
+                <h3>Electronics Product 1</h3>
+                <p>Price: $400</p>
+                <button onclick="addToCart('electronicsProductId1')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <h3>Electronics Product 2</h3>
+                <p>Price: $500</p>
+                <button onclick="addToCart('electronicsProductId2')">Add to Cart</button>
+            </div>
+            <!-- Add more electronics products here -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 My E-commerce</p>
+    </footer>
+</body>
+</html>
